@@ -29,6 +29,16 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+(map! :leader "0" #'winum-select-window-0-or-10)
+(map! :leader "1" #'winum-select-window-1)
+(map! :leader "2" #'winum-select-window-2)
+(map! :leader "3" #'winum-select-window-3)
+(map! :leader "4" #'winum-select-window-4)
+(map! :leader "5" #'winum-select-window-5)
+(map! :leader "6" #'winum-select-window-6)
+(map! :leader "7" #'winum-select-window-7)
+(map! :leader "8" #'winum-select-window-8)
+(map! :leader "9" #'winum-select-window-9)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
